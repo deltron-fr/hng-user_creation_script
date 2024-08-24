@@ -19,16 +19,6 @@ then
     echo "The file exists"
 fi
 
-LOG_FILE="/var/log/user_management.log"
-PASSWORD_FILE="/var/secure/user_passwords.csv"
-
-# Creating files and assigning permissions
-
-touch $LOG_FILE
-mkdir -p /var/secure
-chmod 700 /ar/secure
-touch $PASSWORD_FILE
-chmod 600 $PASSWORD_FILE
 
 # Function to generate a random password
 
